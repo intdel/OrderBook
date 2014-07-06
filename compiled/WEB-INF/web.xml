@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>addorder</servlet-name>
+        <servlet-class>oderhandling.Addorder</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>requestPDF</servlet-name>
+        <servlet-class>oderhandling.Requestpdf</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteOrders</servlet-name>
+        <servlet-class>oderhandling.DeleteOrders</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteParts</servlet-name>
+        <servlet-class>oderhandling.DeleteParts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addorder</servlet-name>
+        <url-pattern>/addorder</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>requestPDF</servlet-name>
+        <url-pattern>/requestPDF</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteOrders</servlet-name>
+        <url-pattern>/deleteorders</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteParts</servlet-name>
+        <url-pattern>/deleteparts</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

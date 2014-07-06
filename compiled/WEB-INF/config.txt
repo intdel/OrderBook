@@ -1,0 +1,2 @@
+savefile="C:\....\data.db";
+add_order_amt="5";
