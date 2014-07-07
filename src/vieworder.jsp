@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>View Orders</title>
     </head>
     <body>
         <h1></h1>
@@ -35,9 +35,8 @@
                     }
                 }
             }
-            
-            if (output.equals(""))
-            {
+
+            if (output.equals("")) {
                 output = "There are no database entries!";
             }
         %>
@@ -45,8 +44,9 @@
             <tr><td>Done</td><td>ID</td><td>Item name</td><td>Qty</td><td>Notes</td></tr>
             <%=output%>
         </table>
-
-
+        <input type="button"
+               onClick="window.print()"
+               value="Print This Page"/>
 
     </body>
 </html>

@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Remove Parts or Orders</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Remove Parts or Orders</h1>
         <a href="deleteparts.jsp">Delete parts</a><br>
         <a href="deleteorders.jsp">Delete orders</a>
     </body>

@@ -10,10 +10,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Remove Orders</title>
     </head>
     <body>
-        <h1>Delete Orders</h1>
+        <h1>Remove Orders</h1>
 
         <%
             String output = "";
