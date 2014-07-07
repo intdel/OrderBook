@@ -42,6 +42,7 @@
             }
         %>
         <table border="1">
+            <tr><td>Done</td><td>ID</td><td>Item name</td><td>Qty</td><td>Notes</td></tr>
             <%=output%>
         </table>
 
